@@ -6,17 +6,30 @@
 }
 
 .container {
+  position: relative;
   width: 100%; height: 100vh;
   background: #ddd;
-  padding: 5vw;
-  section {
+  padding: 2vw 5vw;
+
+  .inner {
     width: 100%; height: 100%;
     border: 2px solid white;
-    #introduce {
-
+    display: flex;
+    #profile {
+      width: 25%;
+      background: green;
+      padding: 50px;
+      .pic {
+  
+      }
+      .text {
+  
+      }
     }
     #works {
-
+      width: 75%;
+      background: darksalmon;
+      padding: 50px;
     }
   }
 }
